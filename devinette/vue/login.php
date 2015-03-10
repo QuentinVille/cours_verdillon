@@ -3,16 +3,19 @@
   <title>Authentification</title>
  </head>
  <body>
+ <header>
+  <h1>Jeu du nombre PHP</h1>
+</header>
   <form method="post" action="index.php?action=login">
    <table border="0" width="400" align="center">
     <tr>
-     <td width="200"><b>Utilisateur</b></td>
+     <td width="200">Utilisateur</td>
      <td width="200">
       <input type="text" name="login">
      </td>
     </tr>
     <tr>
-     <td width="200"><b>Mot de passe<b></td>
+     <td width="200">Mot de passe</td>
      <td width="200">
       <input type="password" name="password">
      </td>

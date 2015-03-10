@@ -3,28 +3,31 @@
 	<title>Inscription</title>
  </head>
  <body>
+ <header>
+	<h1>Jeu du nombre PHP</h1>
+</header>
 	<form method="post" action="index.php?action=inscription">
 	 <table border="0" width="400" align="center">
 		<tr>
-		 <td width="200"><b>Nom</b></td>
+		 <td width="200">Nom</td>
 		 <td width="200">
 			<input type="text" name="nom">
 		 </td>
 		</tr>
 		<tr>
-		 <td width="200"><b>Prenom</b></td>
+		 <td width="200">Prenom</td>
 		 <td width="200">
 			<input type="text" name="prenom">
 		 </td>
 		</tr>
 		<tr>
-		 <td width="200"><b>Username</b></td>
+		 <td width="200">Username</td>
 		 <td width="200">
 			<input type="text" name="login">
 		 </td>
 		</tr>
 		<tr>
-		 <td width="200"><b>Mot de passe<b></td>
+		 <td width="200">Mot de passe</td>
 		 <td width="200">
 			<input type="password" name="password">
 		 </td>

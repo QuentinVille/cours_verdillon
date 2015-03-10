@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8"/>
+  <title>Success</title>
 </head>
 <body>
 
@@ -16,7 +16,7 @@ ajoutBestScore($_SESSION['session'][0]->ID,$VUE['essais'],$_SESSION['session'][0
 
 <p>Classement</p>
 
-<table>
+<table border="0" width="400" align="center">
 	<tr>
 		<td>
 			Rang	
@@ -81,7 +81,7 @@ ajoutBestScore($_SESSION['session'][0]->ID,$VUE['essais'],$_SESSION['session'][0
 </table>
 
 <p> <a href="index.php"> rejouer ?</a></p>
-<p> <a href="?action=logout">Se deconnecter</a></p>
+<p> <a href="?action=logout">Se déconnecter</a></p>
 </form>
 </body>
 <html>
