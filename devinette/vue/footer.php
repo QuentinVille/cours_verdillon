@@ -4,5 +4,5 @@
 
 <footer>
 
-    <p>Copyright &copy 2015 Quentin Ville | <a href="mailto:ville.quentin@gmail.com">Contactez moi !</a></p>
+    <p>Copyright &copy 2015 - Quentin Ville</p>
 </footer>
