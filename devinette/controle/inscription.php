@@ -2,7 +2,7 @@
 require_once("modele/gestion_utilisateurs.php");
 
 	if (empty($_POST["login"]) || empty($_POST["password"])) {
-		echo "Entrer un login/mdp";
+		echo "Entrzr un login/mdp";
 
 	} else {
 
@@ -10,7 +10,7 @@ require_once("modele/gestion_utilisateurs.php");
 
 		//Si user existe -> Get uset par ID
 		if ($id !== FALSE) {
-		echo "Erreur! Login déjà utilisé";
+		echo "Erreur ! Ce login déjà utilisé";
 		} else {
  			$user = inscription($_POST["nom"],$_POST["prenom"],$_POST["login"],$_POST["password"]);
 

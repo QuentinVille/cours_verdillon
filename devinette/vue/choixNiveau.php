@@ -15,7 +15,7 @@
 		<tr>
 		 <td width="200">Choisir un niveau</td>
 		 <td width="200">
-			<input type="number" name="niveau">
+			<input type="number" name="niveau" autofocus>
 		 </td>
 		</tr>
 		<tr>

@@ -11,7 +11,7 @@
 		<tr>
 		 <td width="200">Nom</td>
 		 <td width="200">
-			<input type="text" name="nom">
+			<input type="text" name="nom" autofocus>
 		 </td>
 		</tr>
 		<tr>

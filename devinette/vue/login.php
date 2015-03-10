@@ -11,7 +11,7 @@
     <tr>
      <td width="200">Utilisateur</td>
      <td width="200">
-      <input type="text" name="login">
+      <input type="text" name="login" autofocus>
      </td>
     </tr>
     <tr>
@@ -22,7 +22,7 @@
     </tr>
     <tr>
      <td colspan="2">
-      <input type="submit" name="submit" value="login">
+      <input type="submit" name="submit" value="login" autofocus>
      </td>
     </tr> 
    </table>
