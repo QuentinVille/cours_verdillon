@@ -72,7 +72,7 @@ function ajoutBestScore($id,$nbEssais,$niveau)
     $bestScore = $bestScoreSQL->fetchAll(PDO::FETCH_OBJ)[0]->nbEssais;
     $bestScore = intval($bestScore);
 
-   // if ($nbEssais < $bestScore || $bestScore == NULL) {
+    if ($nbEssais < $bestScore || $bestScore == NULL) {
 		$req = $connexion->query('UPDATE user SET nbEssais =\''.$nbEssais.'\' WHERE ID = \''.$id.'\'');
 		$result = $req->fetchAll(PDO::FETCH_OBJ);
 
@@ -90,7 +90,7 @@ function ajoutBestScore($id,$nbEssais,$niveau)
 	    } else {
 	        return FALSE;
     	}
-   // } 
+    } 
 }
 
 function classement() {
